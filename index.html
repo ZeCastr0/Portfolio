@@ -17,11 +17,10 @@
     <div class="container-fluid background-black">
         <header class="d-flex justify-content-center py-3">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active font-color-white" aria-current="page">Apresentaçao</a></li>
-            <li class="nav-item"><a href="#" class="nav-link font-color-white">Objetivos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link font-color-white">Stack's</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link font-color-white" onclick="scrollObjetivos ()">Objetivos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-color-white" onclick="scrollTecnologias()">Tecnologias</a></li> 
             <li class="nav-item"><a href="#" class="nav-link font-color-white">Projetos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link font-color-white">Contato</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-color-white" onclick="scrollContatos ()">Contato</a></li>
           </ul>
         </header>
       </div>
@@ -37,8 +36,8 @@
             <img src="imgs/foto-1.png" alt="Eu econstado no carro de braços cruzados, com uma camiseta preta" class="foto margin-bottom-2rem">
             <p class="fs-5 mb-4 font-color-white" >Sou um dev júnior apenas com experiências acadêmicas, atualmente estou estudando tanto o back e front-end, ou seja, full stack porque acho importante saber como funciona um projeto por completo, mas tenho a intenção de especializar em apenas em uma das áreas. Com isso estou em busca de oportunidades no mercado de trabalho.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Objetivos</button>
-              <button type="button" class="btn btn-outline-light btn-lg px-4 ">Stack's</button>
+              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onclick="scrollObjetivos()">Objetivos</button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4 " onclick="scrollTecnologias()">Tecnologias</button>
             </div>
           </div>
         </div>
@@ -54,7 +53,7 @@
       <p class="lead fw-normal">Como citado anteriormente meu principal objetivos é conseguir entrar no mercado de trabalho para colocar em pratica todo o conhecimento que adquiri realizando cursos e lendo documentação.
         E estando trabalhando na área vou conseguir também adquirir novos conhecimentos e com isso me tornar um profissional cada vez mais capacitado. 
          </p>
-      <a class="btn btn-outline-secondary" href="#">Stack's</a>
+      <button class="btn btn-outline-secondary" href="#" onclick="scrollTecnologias()">Tecnologias</a>
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -64,7 +63,7 @@
 <div class="b-example-divider"></div>
 
 <section>
-<div class=" row cards justify-content-center bg-dark text-secondary margin-zero">
+<div class=" row cards justify-content-center bg-dark text-secondary margin-zero" id="Stacks">
 
     <!--HTML-->
     <div class="card col-10 col-sm-5 col-lg-3 m-3 aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000">
