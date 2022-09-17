@@ -58,6 +58,10 @@
     margin-top: 2rem;
 }
 
+.paddin-zero{
+    padding: 0;
+}
+
 .icons-contatos {
     height:4rem;
     width:4rem ;
@@ -88,3 +92,14 @@
     height: 25rem;
     width: 20rem;
 }
+
+.ProStyle {
+    width: 95%;
+    height: 225;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.justify-content-stretch{
+    justify-content: stretch;
+} 
