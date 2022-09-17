@@ -7,6 +7,12 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50px;   
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.margin-right-2rem {
+    margin-right: 2rem;
 }
 
 .js {
@@ -25,6 +31,10 @@
     color:white
 }
 
+.tamanh-tecnologias {
+    height: 700rem;
+    width: 50rem;
+}
 
 .b-example-divider {
     height: 3rem;
@@ -71,4 +81,10 @@
 
 .text-center {
     text-align: center;
+}
+
+
+.imgs-tecnologias {
+    height: 25rem;
+    width: 20rem;
 }
