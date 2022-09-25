@@ -89,8 +89,8 @@
 
 
 .imgs-tecnologias {
-    height: 25rem;
-    width: 20rem;
+    height: 20rem;
+    width: 18rem;
 }
 
 .ProStyle {
@@ -103,3 +103,12 @@
 .justify-content-stretch{
     justify-content: stretch;
 } 
+
+@media (max-width: 600px)
+{
+  .imgs-tecnologias-media
+   {
+    height: 10rem;
+    width: 9rem;
+   }
+}
