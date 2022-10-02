@@ -46,7 +46,7 @@
 
 .foto {
     height: 50vh;
-    width: 40vh;
+    width: 45vh;
     border-radius: 10px;
 }
 
@@ -87,6 +87,10 @@
     text-align: center;
 }
 
+.text-justfiy {
+    text-align: justify;
+}
+
 
 .imgs-tecnologias {
     height: 20rem;
@@ -104,11 +108,45 @@
     justify-content: stretch;
 } 
 
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .container-tec:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text-tec {
+    color: black;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 @media (max-width: 600px)
 {
   .imgs-tecnologias-media
    {
-    height: 10rem;
-    width: 9rem;
+    height: 20rem;
+    width: 15rem;
    }
 }
+
+
