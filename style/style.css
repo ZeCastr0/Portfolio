@@ -83,6 +83,7 @@
     height: 10rem;
 }
 
+
 .text-center {
     text-align: center;
 }
@@ -139,6 +140,8 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+ 
 
 @media (max-width: 600px)
 {
